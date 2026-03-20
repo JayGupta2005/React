@@ -1,0 +1,19 @@
+/* *{
+  background-color: black;
+  color: #fff;
+} */
+body{
+  background-color: gray;
+}
+.card{
+  background-color: pink;
+  width: 80%;
+  height: 90%;
+  border-radius: 10px;
+  border: #fff;
+  margin: 20px;
+  padding: 20px;
+}
+.nav{
+  background-color: lightblue;
+}
