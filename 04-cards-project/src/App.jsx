@@ -58,8 +58,10 @@ const App = () => {
   return (
     <div className='parent'>
       <div className="card">
-        { peopleData.map(function(elem){
-          return <Card title = {elem.title} date={elem.date} description={elem.description}/>
+        { peopleData.map(function(elem, idx){
+          return <div key={idx}>
+            <Card title = {elem.title} date={elem.date} description={elem.description}/>
+          </div>
         }) }
       </div>
       
