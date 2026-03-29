@@ -1,0 +1,24 @@
+body{
+  background-color: black;
+  color: white;
+}
+h1{
+  position: absolute;
+  padding-left: 50%;
+}
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgb(0, 255, 106);
+  border-radius: 10px;
+}
+.navRoute{
+  display: flex;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  width: 250px;
+  justify-content: space-evenly;
+}
